@@ -1,0 +1,141 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.anuncio {
+    width: 100%;
+    background-color: #1CD1B0;
+    border: 2px solid #1acaaae5;
+}
+
+.header {
+    font-size: 120px;
+    background-color: #00669F;
+    border: 5px solid #00598d;
+    height: 200px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    top: 0px;
+}
+
+
+
+
+.cardformat {
+    position: relative;
+    width: 300px;
+    height: 450px;
+    margin: 25px;
+}
+
+#uno {
+    position: absolute;
+    left: 10%;
+    bottom: 110px;
+}
+
+#dos {
+    position: absolute;
+    left: 40%;
+    bottom: 110px;
+}
+
+#tres {
+    position: absolute;
+    left: 70%;
+    bottom: 110px;
+}
+
+.portada {
+    background-image: url('../img/BatmanBACK.png');
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 100%;
+    border-radius: 15px 0px 0px;
+    position: relative;
+}
+
+.portadaharley {
+    background-image: url('../img/HarleyBACK.png');
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 100%;
+    border-radius: 15px 0px 0px;
+    position: relative;
+}
+
+.fotodeperfil {
+    border-radius: 50%;
+    position: absolute;
+    left: 90px;
+    top: 80px;
+    z-index: 1;
+}
+
+.fotodeperfilharley {
+    border-radius: 50%;
+    position: absolute;
+    left: 90px;
+    top: 80px;
+    z-index: 1;
+}
+
+.biografia {
+    background-color: #F3F3F3;
+    border: solid 3px #dad4d4;
+    height: 300px;
+    width: 100%;
+    position: relative
+}
+
+.biografia div {
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+    position: relative
+}
+
+.biografia div h2 {
+    padding: 10px;
+}
+
+.botonvermas {
+    background-color: #00669F;
+    text-decoration: none;
+    color: white;
+    padding: 2px 18px 2px 18px;
+    border: #00669F solid 5px;
+    position: relative;
+    top: 25px;
+    left: 95px
+}
+
+.like {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+main {
+    background-color: rgb(246, 246, 246);
+    width: 100%;
+    margin-top: 227px;
+    height: 750px;
+    display: inline-block;
+    /* display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    align-items:center */
+}
+
+footer {
+    background-color: #00669F;
+    color: white;
+}

@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.config {
+    background-color: black;
+    color: white;  
+}
+.logoymenu {
+    background-color:#F0A83E;
+    color: white;
+}    
+.mainI {
+    background-image:url('../img/backgroundmain.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+.mainI h2 {
+    background-color: white;
+    text-align: center;
+}
+
+.mainI span {
+    background-color: orange;
+}
+
+.orangeletter{
+    color: orange;
+    
+
+}
+
+.footer {
+    background-color:#3C2313;
+    color: white;
+}
+
+.footer span {
+    color: grey;
+}
+
+.derechos {
+    background-color: black;
+    color: white;
+    text-align: center;
+}

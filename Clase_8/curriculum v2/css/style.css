@@ -1,0 +1,42 @@
+header
+{
+background-image: url(../img/Banner5.png);
+background-size: cover;
+background-position: center;
+height: 150px;
+padding-top: 150px;
+}
+
+h1 {
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    background-color: rgba(24, 86, 109, 65%);
+    border: 2px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.subtitulos {
+    background-color: rgba(24, 86, 109, 65%);
+    border: 2px solid black;
+}
+
+#fotomia {
+    width: 120px;
+    height: 120px;
+    /* display: block; */
+    text-align: center;
+}
+
+body {
+    text-align: center;
+}
+
+body 
+{
+    background-color: rgb(66, 182, 182);
+}

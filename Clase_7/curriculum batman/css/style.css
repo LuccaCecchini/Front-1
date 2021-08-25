@@ -1,0 +1,20 @@
+header {
+    text-align: center;
+    background-color: rgb(152, 190, 206);
+    }
+
+h1 {
+    font-size: 60px;
+    color: #001c77;
+    background-color: rgb(152, 190, 206);
+    }
+
+.titulosinfo {
+    font-size: 36px;
+    color: #001c77;
+    background-color: rgb(152, 190, 206);
+}
+
+span {
+    font-weight: bold;
+    }
