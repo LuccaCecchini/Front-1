@@ -1,0 +1,520 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* barra de idioma y moneda */
+.config {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5rem;
+}
+
+.config h6 {
+    font-size: 1rem;
+}
+
+.config article {
+    display: flex;
+}
+
+.config article p {
+    padding: 0 1.5rem;
+}
+
+/* logo y menu */
+.logoymenu {
+    background-color: #F0A83E;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+    height: 5rem;
+
+}
+
+.logoHeader {
+    width: 20%;
+    height: 2.5rem;
+    color: white;
+}
+
+.barradetareas {
+    display: none;
+}
+
+.logoymenu ul {
+    width: 40%;
+    height: 5rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logoymenu ul li {
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.logoymenu ul li img {
+    width: 100%;
+    height: 1.5rem;
+}
+
+/* Primera parte del main con imagen de fondo */
+.mainI {
+    background-image: url('../img/backgroundmain.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.mainI div {
+    height: 50rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mainI h2 {
+    background-color: white;
+    text-align: center;
+    border-radius: 0.75rem;
+    padding: 0 0.75rem;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.mainI h3 {
+    margin: 2rem;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.mainI span {
+    background-color: orange;
+    border-radius: 0.75rem;
+    padding: 0.75rem 0.75rem;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: white;
+}
+
+
+/* segunda parte del main con productos */
+.mainII {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.75rem;
+}
+
+.mainII_paw {
+    height: 5rem;
+    width: 5rem;
+    margin: 1.25rem;
+}
+
+.mainII h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 0.75rem;
+}
+
+.mainII p {
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin-bottom: 1rem;
+}
+
+.mainII article {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mainII article div {
+    background-color: #FBFAF6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.05rem grey solid;
+}
+
+
+.orangeletter {
+    color: orange;
+}
+
+/* tercera parte del main contactanos! */
+
+.mainIII {
+    text-align: center;
+    width: 100%;
+}
+
+.contactanos {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactanos form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactanos form input {
+    width: 25rem;
+    margin: 1rem;
+    padding: 1rem 1rem;
+    background-color: #3C2313;
+    color: white;
+    border: #3C2313 solid 1px;
+    border-radius: 1rem;
+}
+
+#borrar {
+    width: 10rem;
+    margin: 1rem;
+    background-color: #8A8787;
+    color: white;
+    border: #8A8787 solid 1px;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+#enviar {
+    width: 10rem;
+    margin: 1rem;
+    background-color: #F0A83E;
+    color: white;
+    border: #F0A83E solid 1px;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+
+}
+
+
+
+.contactmail {
+    background-color: #F0A83E;
+    color: white;
+    font-size: 1.25rem;
+    padding-left: 2rem;
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contactmail form input {
+    border-radius: 1rem;
+    border: white solid;
+    width: 15rem;
+    padding: 0.5rem 0;
+}
+
+.contactmail form button {
+    border: #3C2313 solid 1px;
+    border-radius: 1rem;
+    background-color: #3C2313;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #3C2313;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+#infofooter {
+    display: flex;
+    flex-direction: column;
+}
+
+.infofooter {
+    display: flex;
+    padding: 1rem;
+}
+
+.infofooter article {
+    padding: 1rem;
+}
+
+.logofooter {
+    width: 20rem;
+    height: 4rem;
+}
+  
+
+.footer span {
+    color: grey;
+}
+
+/* Avisos de derecho de autor */
+.derechos {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE */
+
+
+@media (max-width:480px) {
+
+    * {
+        font-size: 6px;
+    }
+
+    /* barra de idioma y moneda */
+.config {
+    display: none;
+}
+
+/* logo y menu */
+.logoymenu {
+    background-color: #F0A83E;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+    height: 5rem;
+}
+
+.barradetareas {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logoHeader {
+    width: 45%;
+    height: 2.5rem;
+    color: white;
+}
+
+.logoymenu ul {
+    display: none;
+}
+
+
+    
+
+
+
+
+/* Primera parte del main con imagen de fondo */
+.mainI {
+    background-image: url('../img/backgroundmain.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.mainI div {
+    height: 50rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mainI h2 {
+    background-color: white;
+    text-align: center;
+    border-radius: 0.75rem;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-right: 10rem;
+}
+
+.mainI h3 {
+    margin: 2rem;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-left: 3rem;
+}
+
+.mainI span {
+    background-color: orange;
+    border-radius: 0.75rem;
+    padding: 0.75rem 0.75rem;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: white;
+    margin-left: 3rem;
+}
+
+
+/* segunda parte del main con productos */
+.mainII {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.75rem;
+}
+
+.mainII_paw {
+    height: 15rem;
+    width: 15rem;
+    margin: 1.25rem;
+}
+
+.mainII h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 0.75rem;
+}
+
+.mainII p {
+    font-size: 2.3rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.mainII article {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mainII article div {
+    background-color: #FBFAF6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.05rem grey solid;
+    margin-bottom: 2rem;
+}
+
+.mainII span {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+
+.orangeletter {
+    color: orange;
+    font-weight: 400;
+}
+
+/* tercera parte del main contactanos! */
+
+.mainIII {
+    display: none;
+}
+
+
+.contactmail {
+    display: none;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #3C2313;
+    color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+#infofooter {
+    display: flex;
+    flex-direction: column;
+}
+
+.infofooter {
+    display: flex;
+    padding: 1rem;
+}
+
+.infofooter img {
+    margin-left: 10rem;
+}
+
+.infofooter article {
+    margin-bottom: -2rem;
+    font-size: 4rem;
+    margin-left: 2rem;
+}
+
+.logofooter {
+    width: 20rem;
+    height: 4rem;
+}
+  
+
+.footer span {
+    color: grey;
+    font-size: 2rem;
+}
+
+/* Avisos de derecho de autor */
+.derechos {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.derechos p {
+    font-size: 2rem
+}
+
+}

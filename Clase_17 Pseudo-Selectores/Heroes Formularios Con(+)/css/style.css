@@ -132,6 +132,12 @@ footer {
   bottom: 0rem;
 }
 
+@media (max-width:1680px) {
+    main {
+        flex-wrap: wrap;
+    }
+}
+
 @media (max-width:1200px) {
     *{
         font-size: 12px;
@@ -139,6 +145,7 @@ footer {
 
     main {
         flex-direction: column;
+    
     }
 }
 
